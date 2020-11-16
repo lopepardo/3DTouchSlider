@@ -1,0 +1,55 @@
+.swiper-slide {
+  width: 340px;
+}
+
+.card {
+  background-color: #fff;
+  width: 340px;
+  height: 440px;
+  margin: 0 auto;
+
+  .one &__img {
+    background-color: $color-card-one;
+  }
+
+  .two &__img {
+    background-color: $color-card-two;
+  }
+
+  .three &__img {
+    background-color: $color-card-three;
+  }
+
+  .four &__img {
+    background-color: $color-card-four;
+  }
+
+  .five &__img {
+    background-color: $color-card-five;
+  }
+
+  &__img {
+    font-size: 2rem;
+    font-weight: bold;
+    width: 100%;
+    height: 40%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__content {
+    font-weight: normal;
+    font-size: 0.9em;
+    color: $color-content-cards;
+    padding: 3em 2em 0;
+  }
+
+  &__btn {
+    display: inline-block;
+    margin-top: 2em;
+    padding: 0.6em 1.4em;
+    border: 2px solid $color-content-cards;
+  }
+}
